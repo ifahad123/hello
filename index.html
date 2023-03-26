@@ -18,8 +18,32 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 30px;
-  
+      }
 
+      button {
+        background-color: blue;
+
+        height: 50px;
+
+        margin: 50px;
+      }
+      /* Container for flexboxes */
+      section {
+        display: -webkit-flex;
+        display: flex;
+      }
+      ol {
+        font-size: 30px;
+      }
+      /* Style the navigation menu */
+      nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background-image: url(hello.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
       }
       .img {
         position: left;
@@ -50,27 +74,34 @@
         font-size: 40px;
       }
 
+      article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-image: url(j1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+      }
+
       h1 {
         color: darkviolet;
         text-align: center;
       }
-      /* Container for flexboxes */
-      section {
-        display: -webkit-flex;
-        display: flex;
-      }
-      ol {
+
+      
+      h2 {
         font-size: 30px;
       }
-      /* Style the navigation menu */
-      nav {
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        background-image: url(hello.png);
+
+      /* Style the footer */
+      footer {
+        background-image: url(c.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 20px;
+        padding: 10px;
+        text-align: center;
+        color: white;
       }
 
       table,
@@ -82,48 +113,31 @@
       table {
         width: 100%;
       }
-      /* Style the content */
-      article {
-        -webkit-flex: 3;
-        -ms-flex: 3;
-        flex: 3;
-        background-image: url(j1.jpg);
-        padding: 20px;
-      }
 
       body {
         background-color: darkblue;
       }
 
-      button {
-        background-color: blue;
-    
-
-        height: 50px;
-      
-       margin: 50px;
-      }
     </style>
   </head>
   <body>
     <header>
       <a href="ifahad123.github.io/hello">
-        <button class="home-page"> Return to Home Page</button>
+        <button class="home-page">Return to Home Page</button>
       </a>
       <a href="https://www.w3schools.com/html/">
-      <button>how do i create a website like this?</button>
-    </a>
-    <a href="why">
-      <button>why do i wrote about this?</button>
-    </a>
-    <a href="who">
-      <button>who is mohamed hussein selim(bodbod)?</button>
-    </a>
-    <a>
-      <button>sopport me plz!</button>
-    </a>
-    
-      </header>
+        <button>how do i create a website like this?</button>
+      </a>
+      <a href="why">
+        <button>why do i wrote about this?</button>
+      </a>
+      <a href="who">
+        <button>who is mohamed hussein selim(bodbod)?</button>
+      </a>
+      <a>
+        <button>sopport me plz!</button>
+      </a>
+    </header>
 
     <section>
       <nav>
@@ -150,40 +164,39 @@
         </h2>
         <h2>
           people know he is from London,he is famous all round the school,he
-          meet new and best friends:Youssif,Omar and Mahmoud Amro,But then,Mohamed Hussein
-          liked a girl called Joudy Ehab.known for being a pig.when Joudy Ehad
-          know that he liked her,Joudy got out of controll and start shouting
-          and crying for reason
+          meet new and best friends:Youssif,Omar and Mahmoud Amro.
         </h2>
         <h2>
-          still Mohamed Hussein renember,He have three best friends,Omar:a funny
-          guy,youssif: a perfect clone of mohamed Hussein,Mahmoud Amro:the sumboxxer guy,we lived
+          He have three best friends,Omar:a funny guy,youssif: a perfect clone
+          of mohamed Hussein,Mahmoud Amro:the sumboxxer guy,we lived
           happily,going out alot
         </h2>
-        <h1>mahamed hussin marks</h1>
-        <table>
-          <tr>
-            <th>SUBJECT</th>
-            <th>MARKS</th>
-            <th>BEHAVIOR</th>
-          </tr>
-          <tr>
-            <td>ENGLISH</td>
-            <td>A+</td>
-            <td>F-</td>
-          </tr>
-          <tr>
-            <td>MATH</td>
-            <td>A+</td>
-            <td>A+</td>
-          </tr>
-          <tr>
-            <td>SCIENCE</td>
-            <td>A+</td>
-            <td>FFFF---</td>
-          </tr>
-        </table>
       </article>
     </section>
+    <footer>
+      <h1>mahamed hussin marks</h1>
+      <table>
+        <tr>
+          <th>SUBJECT</th>
+          <th>MARKS</th>
+          <th>BEHAVIOR</th>
+        </tr>
+        <tr>
+          <td>ENGLISH</td>
+          <td>A+</td>
+          <td>F-</td>
+        </tr>
+        <tr>
+          <td>MATH</td>
+          <td>A+</td>
+          <td>A+</td>
+        </tr>
+        <tr>
+          <td>SCIENCE</td>
+          <td>A+</td>
+          <td>FFFF---</td>
+        </tr>
+      </table>
+    </footer>
   </body>
 </html>
